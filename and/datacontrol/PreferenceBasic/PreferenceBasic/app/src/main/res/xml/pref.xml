@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="ゲスト"
+        android:key="edittext_name"
+        android:summary="ユーザー名を入力します"
+        android:title="ユーザー名" />
+    <EditTextPreference
+        android:defaultValue="123abc"
+        android:key="edittext_pw"
+        android:summary="パスワードを入力します"
+        android:title="パスワード" />
+    <EditTextPreference
+        android:defaultValue="20"
+        android:key="edittext_age"
+        android:summary="年齢を入力します"
+        android:title="年齢" />
+</PreferenceScreen>

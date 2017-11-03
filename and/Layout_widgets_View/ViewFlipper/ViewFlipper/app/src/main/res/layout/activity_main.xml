@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autoStart="true"
+    android:flipInterval="3000"
+    android:inAnimation="@android:anim/slide_in_left"
+    android:outAnimation="@android:anim/slide_out_right">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/elephant"
+        android:text="ジャングルにいるゾウ" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/flower"
+        android:text="お花で作られたキャラクター" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/seal"
+        android:text="手を振ってくれるアザラシ" />
+</ViewFlipper>
+

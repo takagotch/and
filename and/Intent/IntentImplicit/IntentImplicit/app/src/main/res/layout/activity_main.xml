@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+    android:id="@+id/txtKeywd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="http://www.wings.msn.to/" />
+
+    <!--<EditText
+        android:id="@+id/txtKeywd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="tel:03-000-0000">
+    </EditText>-->
+
+    <!--<EditText
+        android:id="@+id/txtKeywd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content://contacts/people/1">
+    </EditText>-->
+
+    <!--<EditText
+        android:id="@+id/txtKeywd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="mailto:taro@example.com">
+    </EditText>-->
+
+    <!--<EditText
+        android:id="@+id/txtKeywd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WINGSプロジェクト">
+    </EditText>-->
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSend_onClick"
+        android:text="移動" />
+
+</LinearLayout>

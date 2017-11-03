@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MenuBasic</string>
+    <string name="home">ホーム</string>
+    <string name="help">ヘルプ</string>
+    <string name="search">検索</string>
+    <string name="in">インポート</string>
+    <string name="out">エクスポート</string>
+    <string name="version">バージョン</string>
+    <string name="setting">設定</string>
+    <string name="bulb">明るさ</string>
+    <string name="speaker">音量</string>
+    <string name="key">暗証番号</string>
+    <string name="garbage">ごみ箱</string>
+</resources>

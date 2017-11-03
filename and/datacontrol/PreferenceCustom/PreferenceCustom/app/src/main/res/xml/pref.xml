@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="chk"
+        android:summary="ニュースを購読する場合は、チェックしてください。"
+        android:title="News購読" />
+
+    <!--<SwitchPreference
+        android:defaultValue="true"
+        android:key="switch"
+        android:summary="ニュースを購読しますか"
+        android:title="News購読" />-->
+
+    <!--<ListPreference
+        android:defaultValue="A型"
+        android:entries="@array/blood_items"
+        android:entryValues="@array/blood_items"
+        android:key="list"
+        android:summary="血液型を選んでください"
+        android:title="血液型" />-->
+
+    <!--<MultiSelectListPreference
+        android:entries="@array/os_items"
+        android:entryValues="@array/os_items"
+        android:key="multi"
+        android:summary="ご使用のOSをチェックしてください"
+        android:title="OS" />-->
+
+    <!--<RingtonePreference
+        android:key="sound"
+        android:ringtoneType="all"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:summary="着信音を選択してください"
+        android:title="着信音" />-->
+
+   <!-- <PreferenceCategory android:title="プロフィール">
+        <EditTextPreference
+            android:defaultValue="ゲスト"
+            android:key="edittext_name"
+            android:summary="ユーザー名を入力します"
+            android:title="ユーザー名" />
+        <ListPreference
+            android:defaultValue="A型"
+            android:entries="@array/blood_items"
+            android:entryValues="@array/blood_items"
+            android:key="list"
+            android:summary="血液型を選んでください"
+            android:title="血液型" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="オプション">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="chk"
+            android:summary="ニュースを購読する場合は、チェックしてください。"
+            android:title="News購読" />
+    </PreferenceCategory>-->
+</PreferenceScreen>
