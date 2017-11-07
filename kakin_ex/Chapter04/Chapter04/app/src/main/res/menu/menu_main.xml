@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.co.se.androidkakin.Chapter04.MainActivity">
+
+    <!-- スピードアップアイテム -->
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/memu_item_speed_up">
+    </item>
+
+    <!-- パワーアップアイテム -->
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/memu_item_power_up">
+    </item>
+</menu>

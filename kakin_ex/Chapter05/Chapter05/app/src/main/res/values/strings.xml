@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chapter05</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="content1_weekly">コンテンツ1(週額)</string>
+    <string name="content1_monthly">コンテンツ1(月額)</string>
+    <string name="content2_weekly">コンテンツ2(週額)</string>
+    <string name="content3_weekly">コンテンツ3(週額)</string>
+
+    <string name="item_shop">ITEM SHOP</string>
+</resources>

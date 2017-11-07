@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iaptest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sP-Cf-x4M">
+                                <state key="normal" title="プロダクト情報取得"/>
+                                <connections>
+                                    <action selector="tapProductRequestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j15-WD-hz6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjd-Uy-oeF">
+                                <state key="normal" title="プロダクト購入"/>
+                                <connections>
+                                    <action selector="tapPaymentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1gr-gQ-8CL"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="プロダクト情報" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rvI-c7-Jdh">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5sP-Cf-x4M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="58T-Ut-TiT"/>
+                            <constraint firstItem="pjd-Uy-oeF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="74A-fU-cVl"/>
+                            <constraint firstItem="rvI-c7-Jdh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="7Fv-OY-GWX"/>
+                            <constraint firstItem="5sP-Cf-x4M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Esc-iQ-ATL"/>
+                            <constraint firstAttribute="trailing" secondItem="rvI-c7-Jdh" secondAttribute="trailing" constant="10" id="FPs-QD-yUC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rvI-c7-Jdh" secondAttribute="bottom" constant="10" id="QGl-9A-i8c"/>
+                            <constraint firstItem="rvI-c7-Jdh" firstAttribute="top" secondItem="pjd-Uy-oeF" secondAttribute="bottom" constant="20" id="Ujl-tt-O2M"/>
+                            <constraint firstItem="pjd-Uy-oeF" firstAttribute="top" secondItem="5sP-Cf-x4M" secondAttribute="bottom" constant="20" id="jQz-Za-pVJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="paymentButton" destination="pjd-Uy-oeF" id="7YM-jz-bXu"/>
+                        <outlet property="textView" destination="rvI-c7-Jdh" id="u4w-mo-XGs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

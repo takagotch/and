@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Breakout Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_breakout">Breakout</string>
+
+    <string name="memu_item_players_up">PLAYERS UP</string>
+    <string name="memu_item_speed_up">SPEED UP</string>
+    <string name="memu_item_power_up">POWER UP</string>
+    <string name="memu_stage_select">STAGE SELECT</string>
+
+    <string name="welcome_msg">Breakout</string>
+
+    <string name="button_stage1">STAGE 1</string>
+    <string name="button_stage2">STAGE 2</string>
+    <string name="button_stage3">STAGE 3</string>
+    <string name="button_purchase">PURCHASE</string>
+
+    <string name="player_status">PLAYER STATUS</string>
+    <string name="item_shop">ITEM SHOP</string>
+    <string name="content_stage3">STAGE 3</string>
+
+    <!-- 予約済みプロダクトID -->
+    <string name="android_test_canceled">android.test.canceled</string>
+    <string name="android_test_purchased">android.test.purchased</string>
+    <string name="android_test_item_unavailable">android.test.item unavailable</string>
+    <string name="android_test_refunded">android.test.refunded</string>
+    <string name="action_settings">Settings</string>
+</resources>
