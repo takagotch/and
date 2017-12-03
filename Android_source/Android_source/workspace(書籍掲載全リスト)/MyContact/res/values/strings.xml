@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">MyContact</string>
+    <string name="title_activity_my_contact">MyContact</string>
+    <string name="menu_delete">全て削除</string>
+    <string name="menu_apliinfo">アプリ情報</string>
+    <string name="button_save">登録</string>
+    <string name="data_name">名前</string>
+    <string name="data_address">住所</string>
+    <string name="data_tel">電話</string>
+    <string name="data_url">URL</string>
+    <string name="data_gender">性別</string>
+    <string name="val_man">男</string>
+    <string name="val_woman">女</string>
+    <string name="val_etc">その他</string>
+    <string name="data_blood">血液型</string>
+
+    <string-array name="val_blood">
+        <item>O型</item>
+        <item>A型</item>
+        <item>B型</item>
+        <item>AB型</item>
+        <item>その他</item>
+    </string-array>
+
+    <string name="def_name">デジタルプライム</string>
+    <string name="def_address">東京都中央区銀座</string>
+    <string name="def_tel">0312345678</string>
+    <string name="def_url">http://www.digitalprime.co.jp</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">DialogSample</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_dialog_sample">DialogSample</string>
+    <string-array name="dialog_sel">
+        <item >アラート+ボタン</item>
+        <item >アラート+エディットテキスト</item>
+        <item >アラート+アイテム選択</item>
+        <item >デートピッカー</item>
+        <item >プログレス+スピン</item>
+        <item >プログレス+ホリゾンタル</item>
+        </string-array>
+
+</resources>

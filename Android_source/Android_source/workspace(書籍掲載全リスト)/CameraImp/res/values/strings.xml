@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">CameraImp</string>
+    <string name="menu_settings">設定</string>
+    <string name="ImpTextTitle">埋め込み文字</string>
+    <string name="ImpText_cmt">埋め込み文字を設定</string>
+    <string name="ImpText_default">はいチーズ！</string>
+    <string name="title_activity_camera_imp">CameraImp</string>
+
+</resources>

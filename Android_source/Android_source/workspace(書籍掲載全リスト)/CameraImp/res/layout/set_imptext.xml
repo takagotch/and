@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:id="@+id/idEditBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:defaultValue="@string/ImpText_default"
+        android:key="KeyImpText"
+        android:maxLength="20"
+        android:summary="@string/ImpText_cmt"
+        android:title="@string/ImpTextTitle" />
+</PreferenceScreen>
